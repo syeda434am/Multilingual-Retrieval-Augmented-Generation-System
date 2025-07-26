@@ -1,0 +1,24 @@
+# Exclude secrets and credentials
+etc/secrets/
+*.json
+
+# Exclude development files
+.git
+.gitignore
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude documentation
+README.md
+*.md
+
+# Exclude Docker files
+Dockerfile
+.dockerignore
+compose.yaml
+docker-compose.yml
